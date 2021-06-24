@@ -51,8 +51,7 @@ int main()
     long long int i,count=0;
     ifstream ifs;
     ofstream ofs;
-    string filename;
-    cin >> filename;
+    string filename="small-file.txt";
     ifs.open(filename);
     // Count the number of words in the next, taking into factor the words that might come from a possible split
     if (ifs.is_open())
