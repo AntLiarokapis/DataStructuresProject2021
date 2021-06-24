@@ -52,7 +52,7 @@ int main()
     ifstream ifs;
     ofstream ofs;
     string filename;
-    cin << filename;
+    cin >> filename;
     ifs.open(filename);
     // Count the number of words in the next, taking into factor the words that might come from a possible split
     if (ifs.is_open())
